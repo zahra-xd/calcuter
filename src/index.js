@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-let x= "hello"
-ReactDOM.render(
-  <React.StrictMode>
-    <x />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+import Keypad from './components/Keypad';
+import Calculator from './components/Calculator';
+ReactDOM.render( <Keypad /> ,
+    document.getElementById('root')
+
 );
 
 // If you want to start measuring performance in your app, pass a function
